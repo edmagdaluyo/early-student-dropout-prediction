@@ -1,4 +1,4 @@
-readme_content = """# Explainable Machine Learning for Early Dropout Prediction and Student Segmentation in Higher Education
+# Explainable Machine Learning for Early Dropout Prediction and Student Segmentation in Higher Education
 
 ## Overview
 
