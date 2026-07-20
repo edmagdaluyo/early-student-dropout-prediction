@@ -1,4 +1,4 @@
-gitignore_content = """# Python cache and compiled files
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -45,9 +45,4 @@ service_account*.json
 # Raw dataset
 # Keep this ignored when redistribution is not intended.
 data/raw/*.csv
-"""
 
-gitignore_path = ROOT / ".gitignore"
-gitignore_path.write_text(gitignore_content, encoding="utf-8")
-
-print(f".gitignore created at:\n{gitignore_path.resolve()}")
