@@ -125,9 +125,3 @@ Asian Institute of Management
 ## License
 
 This project is distributed under the MIT License. See `LICENSE` for details.
-"""
-
-readme_path = ROOT / "README.md"
-readme_path.write_text(readme_content, encoding="utf-8")
-
-print(f"README.md created at:\n{readme_path.resolve()}")
